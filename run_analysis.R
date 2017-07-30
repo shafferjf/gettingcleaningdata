@@ -4,6 +4,12 @@
 ## and factors descriptive names. Finally a tidy data set of the averages
 ## of the means will be produced.
 
+## NOTE: The Samsung data have all been placed in one folder (i.e. the data
+## from the test and train folders have been placed in the main UCI HAR
+## Dataset folder. Setting your working directory to this main folder
+## with the contents of the subfolders will allow this script to
+## function properly.)
+
 library(dplyr) ## dplyr is loaded for later use
 
 ## 1. Merging test and training data sets
