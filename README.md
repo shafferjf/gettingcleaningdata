@@ -12,7 +12,11 @@ The "run_analysis.R" script produces the final output data file through the foll
 2. Creates data sets for test data and training data that include subjects, activities, and the data measurements.
 3. Descriptive column names are added to the data sets.
 4. The test and training data sets are merged into one.
-5. 
+5. The variables that are either means or standard deviations of measurements are extracted from the merged data set and placed into a new data set.
+6. Descriptive column names for each variable are added.
+7. The activity numbers (1 to 6) are replaced by descriptive names (walking, etc).
+8. A second independent tidy data set is created with the means of each variable grouped by each subject and activity.
+9. The final data set is exported as a .txt file.
 
 
 The codebook for all variables used in this project is listed below.
