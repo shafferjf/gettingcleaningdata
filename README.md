@@ -30,4 +30,25 @@ Variables in final tidy data set per column number:
 
 Variables used in "run_analysis.R" script:
 
-
+features - list of measurement variable names from UCI HDR Datset
+test - data frame of test data
+subjects_test - subjects data for test condition
+activities_test - activities data for test conditon
+training - data frame of training data
+subjects_train - subjects data for training condition
+activities_train - activities data for training conditon
+test_data - data frame of test data, subjects, and activities
+training_data - data frame of training data, subjects, and activities
+merged - merged data frame of test_data and training_data
+subjects - subjects column from merged
+activities - activities column from merged
+mean_cols - names in merged that include the string "mean"
+onlymeans - columns from merged that include variable name with "mean"
+mean_names - names in merged that include the string "mean"
+std_cols - names in merged that include the string "std"
+onlystds - columns from merged that include variable name with "std"
+std_names - names in merged that include the string "std"
+means_stds - data frame with subjects, activities, and only variables that include "mean" or "std"
+activityX - logical vector with data for activityX (1 to 6) from activity column in means_stds
+tidy_data - means_stds grouped by subject and activity
+tidy_data_final - summary data of means of each variable by subject and activity
